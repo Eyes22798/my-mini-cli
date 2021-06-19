@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Eyes22798/my-mini-cli#readme",
   "dependencies": {
-    "commander": "^7.2.0"
+    "commander": "^7.2.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.1"
   }
 }

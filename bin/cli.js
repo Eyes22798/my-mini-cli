@@ -1,9 +1,14 @@
-const program = require('commander')
+var program = require('commander');
+const prompt = require('../prompt')
 
 program
-  .option('-c, --cheese <type>', 'add the specified type of cheese', 'blue');
+    .version('0.1.0')
+    .command('create <name>')
+    .description('create a new project powered by vue-cli-service')
+    .option('-t, --title', 'title to use before name')
+    .option('-d, --debug', 'display some debugging')
+    .action((name, options) => { 
+        prompt(name, options)
+    })
 
-program.parse();
-
-console.log(`cheese: ${program.opts().cheese}`);
-console.log(options, process.argv)
+program.parse()
