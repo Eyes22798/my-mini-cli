@@ -18,8 +18,17 @@
   },
   "homepage": "https://github.com/Eyes22798/my-mini-cli#readme",
   "dependencies": {
+    "chalk": "^4.1.1",
     "commander": "^7.2.0",
+    "deepmerge": "^4.2.2",
+    "ejs": "^3.1.6",
     "fs-extra": "^10.0.0",
-    "inquirer": "^8.1.1"
+    "globby": "^11.0.4",
+    "inquirer": "^8.1.1",
+    "isbinaryfile": "^4.0.8",
+    "javascript-stringify": "^2.1.0",
+    "readline": "^1.3.0",
+    "vue-codemod": "0.0.5",
+    "yaml-front-matter": "^4.1.1"
   }
 }
